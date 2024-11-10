@@ -38,8 +38,8 @@ async function getEmoji(city){
         main.appendChild(img);
         img.style.height = '100px'
         img.style.width = '100px'
-    } else if (cityInfo.weather[0].main === 'Drizzle'){
-            const img = document.createElement('img');
+    } else if(cityInfo.weather[0].main === 'Drizzle'){
+        const img = document.createElement('img');
         img.src = "emojis/raining.png";
         main.appendChild(img);
         img.style.height = '100px'
